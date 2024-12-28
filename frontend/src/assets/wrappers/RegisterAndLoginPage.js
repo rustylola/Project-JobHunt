@@ -4,7 +4,7 @@ const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background:    url(./src/assets/images/background-ball.png);
+  background:    url(./src/assets/images/backgroundball.png);
   background-size: contain;                      
   background-repeat:   no-repeat;
   background-position: center center;
