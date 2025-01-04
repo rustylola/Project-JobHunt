@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import bgMain from '../images/backgroundball.png';
 
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background:    url(./src/assets/images/backgroundball.png);
+  background-image:    url(${bgMain});
   background-size: contain;                      
   background-repeat:   no-repeat;
   background-position: center center;

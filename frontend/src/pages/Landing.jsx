@@ -10,7 +10,7 @@ const Landing = () => {
     <Wrapper>
       <nav>
         <Logo />
-      </nav>
+      </nav> 
       <div className="container page">
         <div className="info">
           <h1>

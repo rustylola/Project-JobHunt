@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import bgMain from '../images/backgroundball.png';
 
 const Wrapper = styled.section`
   nav {
@@ -14,7 +15,7 @@ const Wrapper = styled.section`
     display: grid;
     align-items: center;
     margin-top: -3rem;
-    background:    url(./src/assets/images/backgroundball.png);
+    background-image:    url(${bgMain});
     background-size: contain;                      
     background-repeat:   no-repeat;
     background-position: right;
