@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "setup-project": "npm i && cd .. && cd frontend && npm i",
+    "setup-production-app": "npm i && cd .. && cd frontend && npm i && npm run build",
     "server" : "nodemon server",
     "client" : "cd .. && cd frontend && npm run dev",
     "dev" : "concurrently --kill-others-on-fail \" npm run server\" \" npm run client\""
